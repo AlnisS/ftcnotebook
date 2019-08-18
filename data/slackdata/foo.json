@@ -1,0 +1,18 @@
+[
+    {
+        "client_msg_id": "5DD3223C-9A90-4AFB-B2E2-193E277B8CEA",
+        "type": "message",
+        "text": "[12-11] Today we had some parts of the intake 3D printed. The bucket was being printed while I was there and Gilton was supposedly working on the marker. I was working on making the intake actually work, by drilling holes in the right places so we could attach a motor to run the surgical tubing. I did this successfully, with a little bit of fixing (we now have a sort of long hole) but it is functional. Daniel came up with another ingenious idea to make an adapter to the new surgical tubing bar: to make a part that starts out square for the vex motor hole, and then use prongs to snap into holes made on the bar.",
+        "user": "U75P2QJH2",
+        "ts": "1544626427.221200",
+        "reactions": [
+            {
+                "name": "heavy_check_mark",
+                "users": [
+                    "UDCG9J17W"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]
