@@ -21,6 +21,13 @@ public class MessageWrangler {
 
         identifyUpdateOrAdd(loadSlackMessages(DataInfo.slackDebugInputFileB));
 
+        for (Message message : messages.values()) {
+            if (message.getFileIDs() != null) {
+                message.saveFile(0, DataInfo.imageFolder.getAbsolutePath());
+                break;
+            }
+        }
+
         printMessages();
     }
 
@@ -71,7 +78,7 @@ public class MessageWrangler {
         Message[] result = new Message[tmpSlackMessages.length];
         for (int i = 0; i < result.length; i++) {
             TmpSlackMessage tmp = tmpSlackMessages[i];
-            result[i] = new Message(tmp.user, tmp.ts, tmp.text);
+            result[i] = new Message(tmp.user, tmp.ts, tmp.text, tmp.files);
         }
         return result;
     }

@@ -15,4 +15,7 @@ public class DataInfo {
     public static final File slackDebugInputFileB
             = new File(DataInfo.slackInputFolder.getAbsolutePath()
             + File.separator + "foo.json");
+    public static final File imageFolder
+            = new File(System.getProperty("user.dir")
+            + File.separator + "data" + File.separator + "slackimages");
 }
