@@ -75,6 +75,10 @@ public class Structure {
             }
             return null;
         }
+
+        public Collection<Section> getSections() {
+            return sections;
+        }
     }
 
     public static class Section {

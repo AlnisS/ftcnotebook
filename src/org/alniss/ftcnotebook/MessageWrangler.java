@@ -9,6 +9,10 @@ public class MessageWrangler {
     private Map<String, Message> messages;
 
     public void init() {
+
+        setupMessagesMap();
+        identifyUpdateOrAdd(loadSlackMessages(DataInfo.slackDebugInputFileA));
+
         /*
         setupMessagesMap();
 
@@ -30,6 +34,14 @@ public class MessageWrangler {
 
         printMessages();
          */
+    }
+
+    public Message getMessage(String messageID) {
+        return messages.get(messageID);
+    }
+
+    public Collection<Message> getMessages() {
+        return messages.values();
     }
 
     private void printMessages() {
