@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ftcnotebook:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ftcnotebook_jar</output-path>
+    <root id="archive" name="ftcnotebook.jar">
+      <element id="module-output" name="ftcnotebook" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/gson-2.8.5.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

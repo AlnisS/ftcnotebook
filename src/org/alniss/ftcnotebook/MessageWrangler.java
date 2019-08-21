@@ -1,7 +1,6 @@
 package org.alniss.ftcnotebook;
 
 import com.google.gson.Gson;
-import org.omg.PortableInterceptor.DISCARDING;
 
 import java.io.*;
 import java.util.*;
@@ -10,6 +9,7 @@ public class MessageWrangler {
     private Map<String, Message> messages;
 
     public void init() {
+        /*
         setupMessagesMap();
 
         //identifyUpdateOrAdd(loadSlackMessages(DataInfo.slackInputFolder.listFiles()));
@@ -29,6 +29,7 @@ public class MessageWrangler {
         }
 
         printMessages();
+         */
     }
 
     private void printMessages() {
